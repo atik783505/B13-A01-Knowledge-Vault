@@ -27,6 +27,7 @@
 header{
     background-color: #FFFFFF;
     padding-top: 21px;
+    
 }
 nav{
     width: 83%;
@@ -35,6 +36,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
 }
 .logo img{
     width: 139px;
@@ -52,14 +54,15 @@ nav .menu a{
     color: #000000;
 }
 #banner {
-    
-  
     background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    justify-content: center;
+    
+    
 }
 #banner .banner-content{
-    padding: 115px 400px 179px 400px;
+    padding: 115px 0 179px 0;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -119,11 +122,127 @@ nav .menu a{
     
 }
 .btn:hover{
-     background-color:blueviolet;
+    background-color:blueviolet;
     transform: translateY(-5px);
     cursor: pointer;
 
 }
+#card{
+    width: 84%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+#card .card-container .section-heading{
+   
+    text-align: center;
+    padding-top: 60px;
+}
+
+#card .card-container .section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#card .card-container .section-heading p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 44px;
+
+}
+
+#card .card-container .card-item{
+    display: flex;
+    gap: 24px;
+ 
+    
+}
+
+.card-item .card-box{
+    padding: 69.5px 24px;
+    text-align: center;
+    max-width: 322px;
+    box-shadow: 0 10px 20px 0 #cdbcbc;
+}
+
+.card-item .card-box img{
+    max-width: 60px;
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+
+}
+
+.card-item .card-box h4{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 14px;
+}
+.card-item .card-box p{
+    color: #627382;
+    font-size: 16px;
+}
+
+#brain{
+    width: 84%;
+    max-width: 1360px;
+    margin: 0 auto;
+    
+}
+#brain .barin-container{
+    display: flex;
+    margin-top: 120px;
+    gap: 60px;
+}
+
+
+#brain .barin-container img{
+    max-width: 600px;
+    
+
+}
+
+#brain .barin-container h6{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    padding-top: 102px;
+}
+#brain .barin-container h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+}
+#brain .barin-container p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    
+}
+.tik li{
+    color: #001931;
+    font-size: 16px;
+    list-style: none;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.tik li img{
+    vertical-align: middle;
+
+}
+
+
+
   
 
 
